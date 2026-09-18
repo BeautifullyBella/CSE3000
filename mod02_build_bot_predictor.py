@@ -10,7 +10,7 @@ def train_model(X, y, seed=seed):
     Build a GBM on given data
     """
     model = GradientBoostingClassifier(
-        learning_rate=0.1,
+        learning_rate=0.5,
         n_estimators=200,
         max_depth=12,
         subsample=2,
